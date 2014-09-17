@@ -1,0 +1,8 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Setup storm cluster with Vagrant and chef",
+    "packageVersion": "0.1.0",
+    "useSass": false,
+    "deployToGithubPages": false
+  }
+}

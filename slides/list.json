@@ -1,0 +1,13 @@
+[   
+    "slide-title.html",
+    "prerequisites.html",
+    ["step0/definition-fun.html","step0/basic.html", "step0/createEnviroment.html", "step0/basicCmds.html", 
+    	"step0/basicCmds2.html", "step0/basicCmds3.html", "step0/basicCmds4.html"
+    ],
+    ["step1/introduction.html","step1/storm.html", "step1/simplifiedEnviroment.html" ,"step1/yumrepos.html",
+    	"step1/yumrepoconfigure.html","step1/vagrantFolderPrepare.html","step1/configureBox.html", 
+    	"step1/configureBox2.html", "step1/yumOnlyLocalRepo.html", "step1/yumCheck.html",
+    	"step1/zookeeperInstall.html", "step1/stormInstall.html", "step1/supervisorInstall.html", "step1/reloadAndRun.html",
+        "step1/sumup.html"],
+    "index.md"
+]

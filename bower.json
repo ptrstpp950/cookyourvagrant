@@ -1,0 +1,8 @@
+{
+  "name": "setup-storm-cluster-with-vagrant-and-chef",
+  "version": "0.1.0",
+  "dependencies": {
+    "reveal.js": "~2.6.1",
+    "highlightjs": "~8.0.0"
+  }
+}
