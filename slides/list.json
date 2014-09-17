@@ -9,5 +9,10 @@
     	"step1/configureBox2.html", "step1/yumOnlyLocalRepo.html", "step1/yumCheck.html",
     	"step1/zookeeperInstall.html", "step1/stormInstall.html", "step1/supervisorInstall.html", "step1/reloadAndRun.html",
         "step1/sumup.html"],
+    ["step2/start.html", "step2/chefIntroduction.html", "step2/vagrantFolderPrepare.html", "step2/createCookbook.html",
+        "step2/configureMachine.html", "step2/configureMachine2.html", "step2/firstRecipe.html", "step2/firstRecipe2.html",
+        "step2/firstRecipe3.html", "step2/installJava.html",
+        "step2/zookeeperInstall.html","step2/zookeeperCluster.html", "step2/zookeeperCluster2.html", 
+        "step2/zookeeperCluster3.html", "step2/zookeeperCluster4.html", "step2/zookeeperValidateNode.html"],
     "index.md"
 ]
