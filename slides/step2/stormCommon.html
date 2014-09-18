@@ -1,0 +1,9 @@
+<h3>Storm &amp; supervisor- common parts</h3>
+<p>We need to install: storm, supervisor, so in the new file <code>stormCommon.rb</code> under <code>recipes</code> code is easy:</p>
+<pre><code class="ruby">package "supervisor" do
+	action :install
+end
+
+package "storm" do
+	action :install
+end</code></pre>
