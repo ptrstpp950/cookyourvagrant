@@ -16,6 +16,7 @@
         "step2/zookeeperCluster3.html", "step2/zookeeperCluster4.html", "step2/zookeeperValidateNode.html",
         "step2/zookeeperSecondNode.html", "step2/zookeeperSecondNode2.html", "step2/stopIptables.html",
         "step2/stormCommon.html", "step2/nimbus.html", "step2/worker.html", "step2/upAndRunning.html"],
-    ["step3/introduction.html", "step3/removeHardcoded.html", "step3/removeHardcoded2.html"],
+    ["step3/introduction.html", "step3/removeHardcoded.html", "step3/removeHardcoded2.html", "step3/demo.html"],
+    ["step4/introduction.html", "step4/setupEnviroment.html"],
     "index.md"
 ]

@@ -1,0 +1,10 @@
+<h3>Setup environment</h3>
+<ul>
+<li>In <code>cookVagrant</code> folder create <code>vagrantWindows</code></li>
+<li>Add box with: <pre><code class="shell"> vagrant box add windows2012 file:///c:/vagrantfiles/windows_2012_r2_virtualbox.box</code></pre></li>
+<li>Run <code>vagrant init</code> and change box name to <code>windows2012</code></li>
+<li>Form <a href="https://supermarket.getchef.com/cookbooks/iis">https://supermarket.getchef.com/cookbooks/iis</a> download IIS cookbook and unpack it in <code>vagrantwindows\cookbooks</code></li>
+<li>Same with <a href="https://supermarket.getchef.com/cookbooks/windows">https://supermarket.getchef.com/cookbooks/windows</a> and
+<a href="https://supermarket.getchef.com/cookbooks/git">https://supermarket.getchef.com/cookbooks/git</a></li>
+<li>Create cookbook with <pre><code class="shell">knife cookbook create mywebsite -o $PWD/cookbooks</code></pre></li>
+</ul>
