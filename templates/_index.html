@@ -19,6 +19,8 @@
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/highlightjs/styles/monokai_sublime.css" id="highlight-theme">
 
+        <link rel="stylesheet" href="css/custom.css">
+
         <!-- If the query includes 'print-pdf', use the PDF print sheet -->
         <script>
           if( window.location.search.match( /print-pdf/gi ) ) {
@@ -36,7 +38,13 @@
     </head>
 
     <body>
-
+        <span class="github-btn github-watchers github-btn-large">
+            <a class="gh-btn" href="https://github.com/twbs/bootstrap/" target="_blank">
+                <span class="gh-ico"></span> 
+                <span class="gh-text" id="gh-text">Star</span>
+            </a>
+            <a class="gh-count" id="gh-count" href="https://github.com/twbs/bootstrap/stargazers" target="_blank" style="display: block;">72,134</a>
+        </span>
         <div class="reveal">
 
             <div class="slides">
@@ -56,7 +64,8 @@
             </div>
 
         </div>
-
+        
+        <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
         <script src="bower_components/reveal.js/js/reveal.min.js"></script>
         <script>
