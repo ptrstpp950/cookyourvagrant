@@ -4,8 +4,7 @@
 	<li>If you receive error about missing <code>ssh</code> command just do prerequisites or use putty instead</li>
 	<li>The default user and password for box is <code>vagrant</code> and <code>vagrant</code>, but public boxes have also ssh key authentication turned on</li>
 	<li>After successful login run following code <b>inside  VM</b><pre><code class="bash">cd /vagrant
-echo "shared" > echo.txt
-exit</code></pre></li>
+echo "shared" > echo.txt</code></pre></li>
 	<li>Now in <b>host machine</b> in current directory (with <code>Vagrantfile</code>) we can run<pre><code class="bash">cat echo.txt</code></pre> and see "shared" on screen.
 	</li>
 	<li>By default vagrant directory is "mounted"/"shared" with VM so it is easy to transfer files between
