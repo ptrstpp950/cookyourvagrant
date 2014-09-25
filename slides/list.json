@@ -1,6 +1,6 @@
 [   
     "slide-title.html",
-    "prerequisites.html",
+    ["prerequisites.html","prerequisites2.html"],
     ["step0/definition-fun.html","step0/basic.html", "step0/whatFor.html", "step0/whatFor2.html", 
         "step0/createEnviroment.html", "step0/basicCmds.html", 
     	"step0/basicCmds2.html", "step0/basicCmds3.html", "step0/basicCmds4.html"

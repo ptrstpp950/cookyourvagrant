@@ -2,7 +2,7 @@
 <ol>
 	<li>To access created machine, we now can run : <pre><code class="bash">vagrant ssh</code></pre></li>
 	<li>If you receive error about missing <code>ssh</code> command just do prerequisites or use putty instead</li>
-	<li>The default user and password for box is <code>vagrant</code> and <code>vagrant</code>, but public boxes have also ssh key authentication turned on</li>
+	<li>The default user and password for box is <code>vagrant</code> and <code>vagrant</code>, but public boxes have also ssh key authentication</li>
 	<li>After successful login run following code <b>inside  VM</b><pre><code class="bash">cd /vagrant
 echo "shared" > echo.txt</code></pre></li>
 	<li>Now on <b>the host machine</b> in current directory (with <code>Vagrantfile</code>) we can run<pre><code class="bash">cat echo.txt</code></pre> and see "shared" on screen.
