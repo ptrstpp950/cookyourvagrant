@@ -23,5 +23,5 @@
     ["step4/introduction.html", "step4/setupEnviroment.html", "step4/installCookbooks.html", "step4/removeDepsFromGit.html",
         "step4/prepareRecipe.html", "step4/prepareVagrantfile.html"],
     "buildBox.html",
-    "theEnd.html"
+    ["beforeEnd.html","theEnd.html"]
 ]
