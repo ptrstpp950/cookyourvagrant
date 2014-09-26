@@ -3,7 +3,7 @@
 <p>The <code>nimbus.rb</code> recipe looks like following</p>
 <pre><code class="ruby">include_recipe "storm::stormCommon"
 
-template "/etc/supervisor.d/supervisord-storm-nimbus.ini" do
+template "/etc/supervisord.d/supervisord-storm-nimbus.ini" do
 	source "supervisord-storm-nimbus.ini"
 	owner "root"
 	group "root"
